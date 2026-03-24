@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import pandas as pd; df = pd.read_csv\\(''c:/Users/42073/data-analytics-project/investments_VC.csv'', nrows=5, encoding=''latin1''\\); print\\(df.dtypes\\)\")"
+    ]
+  }
+}
