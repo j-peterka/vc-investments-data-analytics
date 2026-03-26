@@ -47,18 +47,6 @@ Exploratory and predictive analysis of ~54,000 global startup funding records fr
 - **Total funding amount** is the strongest predictor — acquired companies raised a median of **$8.4M vs. $1M** for closed ones.
 - Model achieved **ROC-AUC ~0.73**, meaningfully above baseline, demonstrating that funding profile is a real signal for acquisition outcomes.
 
-## How to Run
-
-```bash
-# 1. Install dependencies
-pip install pandas numpy matplotlib scikit-learn
-
-# 2. Open the notebook
-jupyter notebook notebooks/main.ipynb
-```
-
-> The notebook expects `investments_VC.csv` to be in the same directory it is run from, or update the path in Cell 2.
-
 ## Technologies
 
 - **Python 3** — pandas, NumPy, Matplotlib
